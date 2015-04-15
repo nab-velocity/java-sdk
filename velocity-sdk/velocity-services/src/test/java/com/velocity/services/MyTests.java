@@ -5,7 +5,7 @@ import java.io.FileInputStream;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.Unmarshaller;
 
-import com.velocity.models.response.BankcardTransactionResponsePro;
+import com.velocity.model.response.BankcardTransactionResponsePro;
 
 public class MyTests {
 

@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.velocity.exceptions;
 
 /**
@@ -9,6 +6,8 @@ package com.velocity.exceptions;
  * @date 13-January-2015
  */
 public class VelocityRestInvokeException extends Exception {
+
+    private static final long serialVersionUID = 2407112332528162904L;
 
     /**
      * Default constructor

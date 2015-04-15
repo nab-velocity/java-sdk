@@ -4,8 +4,8 @@
          name="M2Eclipse PMD RuleSet"
          xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
    <description></description>
-   <exclude-pattern>.*D:/Test-Workspace/velocity-sdk/velocity-services/target.*</exclude-pattern>
-   <exclude-pattern>.*D:/Test-Workspace/velocity-sdk/velocity-services/src/test/java.*</exclude-pattern>
+   <exclude-pattern>.*D:/Velocity-GitCode 15thMarch/java-sdk/velocity-sdk/velocity-services/src/test/java.*</exclude-pattern>
+   <exclude-pattern>.*D:/Velocity-GitCode 15thMarch/java-sdk/velocity-sdk/velocity-services/target.*</exclude-pattern>
    <rule class="net.sourceforge.pmd.lang.rule.XPathRule" deprecated="false" dfa="false"
          externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/basic.html#JumbledIncrementer"
          language="java"
