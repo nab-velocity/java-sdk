@@ -268,7 +268,9 @@
                     <label>Card Type</label>
                     <select name="cardtype" id="cardtype" />
                     <option value="Visa">Visa</option>
-                    <option value="Master">Master</option>
+                    <option value="MasterCard">MasterCard</option>
+                     <option value="Discover">Discover</option>
+                      <option value="AmericanExpress">AmericanExpress</option>
                     </select>
                 </div>
                 
@@ -307,6 +309,20 @@
                     <input id="invoiceNumber" name="invoiceNumber" type="text" autocomplete="off" value="" />
                 </div>
                 
+                <div>
+                    <label>Track1Data: </label>
+                    <input name="track1Data" id="track1Data" type="text" value="%B4012000033330026^VIMAL/KUMAR ^0904101100001100000000123456780?" autofocus />
+                </div>
+                
+                <div>
+                    <label>Track2Data: </label>
+                    <input name="track2Data" id="track2Data" type="text" value="4012000033330026=09041011000012345678" autofocus />
+                </div>
+                
+                <div>
+                    <label>CustomerPresent: </label>
+                    <input name="customerpresent" id="customerpresent" type="text" value="Present" autofocus />
+                </div>
                 
                 <div>
                     <label>Expiry Date: </label>
